@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>service Tax</title>
+
+       <!-- CSS -->
+       <link rel="stylesheet" href="capitalgainstax.css">
+
+        <!-- Boxicons CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+        <body>
+            <div class="container">
+                <div class="image">
+                  <img src="Logo_of_Income_Tax_Department_India.png">
+                </div>
+                <div class="text">
+                  <h1>SMART TAX COLLECTION</h1>
+                </div>
+              </div>
+              <section>
+                <div class="navbar">
+                  <a href="ui.html">Home</a>
+                  <a href="https://www.incometax.gov.in/iec/foportal/latest-news">News</a>
+                  <a href="reg.html">Register</a>
+                  <a href="ptmain.html">Pay Taxs</a>
+                  <a href="serv.html">Services</a>
+                  <a href="org.html">Register for Pan</a>
+                  <a href="abtdetail.html">About Us</a>
+                </div>
+              </section>
+              <div>
+                <marquee>Smart Tax Collection (STC) With Income Tax Department (IT) . Copyright 2023-2024©</marquee>
+              </div>
+        <section class="body">
+            <form action="py.html">
+            <div class="login-form">
+                <div class="form-title">
+                    Fill This To Pay Service Tax
+                </div>
+                NOTE:
+                    <sup style="color: red;">*</sup><h5 style="color: red;">Represent Optional</h5>
+                
+                <div class="form-input">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="firstname">
+                </div>
+                <div class="form-input">
+                    <label for="lname">Middle Name</label><br>
+    <input type="text" id="mname" name="middlename">
+                </div>
+                <div class="form-input">
+                    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname">
+                </div>
+                <div class="form-input">
+                    <label for="username">Assessee's Name<sup style="color: red;size: 10;">*</sup></label><br>
+                    <input type="text"  id="username">
+                </div>
+                <div class="form-input">
+                    <label for="address">Address of Registered Unit<br>
+                          <textarea id="address" rows="4" cols="50" required></textarea><br><br>
+                        </label>
+                </div>
+                <div class="form-input">
+                    <label for="commissionerate">Commissionerate</label><br>
+                    <input type="text" id="com" required>
+                </div>
+                <div class="form-input">
+                    <label for="devision">Devision</label><br>
+                    <input type="text" id="divn" required>
+                </div>
+                <div class="form-input">
+                    <label for="range">Range</label><br>
+                    <input type="text" id="range" required>
+                </div>
+                <div class="form-input">
+                    <label for="number">Tel.No / Mobile Number</label><br>
+                    <input type="tel" name="country code" value="+91" size="2" style="width:60px;" maxlength="4">
+                    <input type="tel" id="phone" name="phone" maxlength="10" class="phone" pattern="[0-9]{5}-[0-9]{5}" style="width:160px;" required> 
+                </div>
+                <div class="form-input">
+                    <label for="pan numner">Pan Number</label><br>
+                    <input type="text" style="text-transform: uppercase;" id="panno" required>
+                    <input type="file" id="myFile" name="filename" required>
+  <input type="submit" onclick="alert('Submision Done')" value="submit" required>
+                </div>
+                <div class="form-input">
+                    <label for="aadhar number">Aadhar Number</label><br>
+                    <input type="number"  id="adno" required>
+                    <input type="file" id="myFile" name="filename" required>
+  <input type="submit" onclick="alert('Submision Done')" value="submit" required>
+                </div>
+                <div class="form-input">
+                    <h3>Owner Infomation:</h3><br>
+                    <label for="proofadd">Upload Proof Of Address:</label><br>
+                    <input type="file" id="myFile" name="filename" required>
+  <input type="submit" onclick="alert('Submision Done')" value="submit" required><br><br>
+                    <label for="acno">A/c No:</label><br>
+                    <input type="number" id="acno" name="phone" maxlength="20" class="acno" style="width:250px;" required><br>
+                    <label for="fname">A/c Holder Name</label><br>
+                    <input type="text" id="fname" name="firstname"><br>
+                    <label for="pan numner">IFSC NO </label><br>
+                    <input type="text" style="text-transform: uppercase;" id="panno" required>
+                </div>
+                <div>
+                    <label for="mail">Email :</label><br>
+                    <input type="email" id="mail" required>
+                </div>
+                <div>
+                    <label for="Return period">Return for the period</label><br>
+                    <select name="Return period" id="return" required>
+                      <option value="April to sep">April - September</option>
+                      <option value="oct to march">October - March</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="financial year">Financial Year :</label><br>
+                    <label>From</label>
+                    <input type="number" placeholder="YYYY" min="1999" max="2023" required>
+                    <label>To</label>
+                    <input type="number" placeholder="YYYY" min="1999" max="2023" required>
+                </div>
+                <div class="form-input">
+                    <label for="date">Date</label><br>
+                    <input type="date"  id="date" required>
+                </div>
+                <div class="form-input">
+                    <label for="return file">Attach Return File</label>
+                    <input type="file" id="myFile" name="filename" required>
+  <input type="submit" onclick="alert('Submision Done')" value="submit" required>
+                </div>
+                <div>
+                    <label>Total Amount To Pay</label><br>
+                    <input type="number" required>
+                </div>
+                <div>
+                    <label for="cars">Mode Of Payment</label>
+                    <select name="pay" id="pay">
+                      <option value="upi">UPI</option>
+                      <option value="debit">DEBIT CARD</option>
+                      <option value="credit">CREDIT CARD</option>
+                      <option value="bt">BANK TRANSFER</option>
+                    </select>
+                </div>
+                    <div>
+                        <a href="py.html"><button id="login-btn">Pay</button></a>
+                    </div>
+                </div>
+             </div>
+            </form>
+        </section>
+        </body>
+</html>

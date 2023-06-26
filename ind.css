@@ -1,0 +1,180 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  column-gap: 30px;
+}
+.btn{
+  border: 1px solid #000;
+  background:#9BDAF1 ;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  
+}
+.btn1,.btn2,.btn3,.btn4,.btn5{
+  color:#a00808;
+}
+.btn1{
+  padding: 50px 50px;
+}
+.btn2{
+  padding: 50px 50px;
+}
+.btn3{
+  padding: 50px 50px;
+}
+.btn4{
+  padding: 50px 50px;
+}
+.btn5{
+  padding: 50px 50px;
+}
+.btn1:hover {
+  transform: rotateX(30deg);
+  box-shadow: 0 15px 15px #000;
+}
+.btn2:hover {
+  transform: rotateX(30deg);
+  box-shadow: 0 15px 15px #000;
+}
+.btn3:hover {
+  transform: rotateX(30deg);
+  box-shadow: 0 15px 15px #000;
+}
+.btn4:hover {
+  transform: rotateX(30deg);
+  box-shadow: 0 15px 15px #000;
+}
+.btn5:hover {
+  transform: rotateX(30deg);
+  box-shadow: 0 15px 15px #000;
+}
+.navbar {
+  width: 100%;
+ 
+  float: right;
+}
+
+.logo{
+  padding-bottom: 10px;
+margin-top: auto;
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+.hd{
+  background-color: #29398d;
+}
+
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  background-color: #29398d;
+ }
+ 
+ img {
+  display: grid;
+  max-width: 100px;
+   background-color: #ffffff;
+ }
+ 
+ .text {
+   font-size: 15px;
+   color: #ffffff;
+ }
+
+ marquee {
+  height: 100px;
+  width: 100%;
+  color: #cc7245;
+  overflow: hidden;
+  position:relative;
+  border: #c6541b;
+  border:solid 1px;
+  height:25px;
+  background-color: #fbf4f1;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-image: url("/17973908.jpg");
+  background-color: #fff;
+  background-size: cover;
+  
+ }
